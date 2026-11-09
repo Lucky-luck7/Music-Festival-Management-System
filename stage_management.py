@@ -18,4 +18,12 @@ def stage_management():
         print("Please try again. You can only add, view, update or delete.")
         stage_management()
 
+def add():
+    stname = input("provide stage name: ")
+    stcap = int(input("provide stage capacity: "))
+    stloc = input("provide stage location: ")
+    print(f"Stage name: {stname}, Stage capacity: {stcap}, Stage location: {stloc}")
+
+
+
 stage_management()
